@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aula 1</title>
+</head>
+<body>
+    Nike
+    <!-- paragrafos/elementos de texto -->
+    <!-- b - negrito  -->
+    <!-- i - italico -->
+    <!-- u - sublinhar -->
+    <!-- del - censura a palavra -->
+    <!-- sup ele volta uma linha -->
+    <p>isso é um teste</p>
+    <p><b>isso é um teste</b></p>
+    <p><i>isso é um teste</i></p>
+    <p><U>isso é um <sup>teste</sup></U></p>
+    <p> isso é um <del>teste</del></p>
+ 
+ 
+    <!-- hierarquias/tamanho das fontes  -->
+    <h1>título</h1>
+    <h2>título</h2>
+    <h3>título</h3>
+    <h4>título</h4>
+    <h5>título</h5>
+    <h6>título</h6>
+ 
+ 
+    <!-- o alinhamento deve ser colocado dentro da tag de abertura e serve para todas as tags de texto -->
+    <h1 align="center">título</h1>
+    <h1 align="right">título</h1>
+    <h1 align="left">título</h1>
+    <!-- quebra de linha um pouco maior que o p -->
+    <br />
+    título
+    <hr />
+    título
+    <!-- tags semanticas -->
+    <strong></strong> <!--mesma coisa do negrito-->
+    <big></big> <!-- aumenta um pouco→
+ 
+</body>
+</html>
