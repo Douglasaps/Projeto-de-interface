@@ -1,46 +1,83 @@
 <!DOCTYPE html>
-<html lang="pt">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>aula 1</title>
-</head>
-<body>
-    Nike
-    <!-- paragrafos/elementos de texto -->
-    <!-- b - negrito  -->
-    <!-- i - italico -->
-    <!-- u - sublinhar -->
-    <!-- del - censura a palavra -->
-    <!-- sup ele volta uma linha -->
-    <p>isso é um teste</p>
-    <p><b>isso é um teste</b></p>
-    <p><i>isso é um teste</i></p>
-    <p><U>isso é um <sup>teste</sup></U></p>
-    <p> isso é um <del>teste</del></p>
- 
- 
-    <!-- hierarquias/tamanho das fontes  -->
-    <h1>título</h1>
-    <h2>título</h2>
-    <h3>título</h3>
-    <h4>título</h4>
-    <h5>título</h5>
-    <h6>título</h6>
- 
- 
-    <!-- o alinhamento deve ser colocado dentro da tag de abertura e serve para todas as tags de texto -->
-    <h1 align="center">título</h1>
-    <h1 align="right">título</h1>
-    <h1 align="left">título</h1>
-    <!-- quebra de linha um pouco maior que o p -->
-    <br />
-    título
-    <hr />
-    título
-    <!-- tags semanticas -->
-    <strong></strong> <!--mesma coisa do negrito-->
-    <big></big> <!-- aumenta um pouco→
- 
-</body>
-</html>
+<html lang="pt-br">
+
+
+   <head>
+  
+       <meta charset="UTF-8">
+       <meta http-equiv="X-UA-Compatible" content="IE=edge">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Site MS</title>
+  
+   </head>
+  
+       <body>
+               <!-- paragrafos/elementos de texto -->
+
+           Esse é um texto exemplo!!!
+           <p>Esse é um <b>texte</b> exemplo!!!</p> <!-- <p></p> Quebra de linha -->
+           <p><b>Esse é um texto exemplo!!!</b><p/>   <!-- <b></b> Negrito -->
+           <i>Esse é um texto exemplo!!!</i>   <!-- <i></i> Italico -->
+           <p><u>Esse é um texto exemplo!!!</u><p/> <!-- <u></u> Sublinhar -->
+           <p><del>texto</del><p/> <!-- <del></del> Censurar -->
+           <p><sup>Esse </sup> é um texto exemplo!!!</p> <!-- <sup></sup> Letras Menores com alimento acima-->
+           <p><sub>Esse </sub> é um texto exemplo!!!</p> <!-- <sub></sub> Letras Menores com alimento abaixo-->
+
+               <!-- Hirarquias -->
+
+           <h1>Título Inicial</h1> <!-- Titulo com fonte 22 -->
+           <h2>Título Inicial</h2> <!-- Titulo com fonte 20 -->
+           <h3>Título Inicial</h3> <!-- Titulo com fonte 18 -->
+           <h4>Título Inicial</h4> <!-- Titulo com fonte 16 -->
+           <h5>Título Inicial</h5> <!-- Titulo com fonte 14 -->
+           <h6>Título Inicial</h6> <!-- Titulo com fonte 12 -->
+
+               <!--Alinhamento-->
+
+           <h1 align="center">Título Inicial</h1> <!-- align=˜center˜ Alinhamento central -->
+           <h1 align="right">Título Inicial</h1> <!-- align=˜right˜ Alinhamento a direita -->
+          
+               <!--Quebra de Linha-->
+
+           <br /> <!-- coloca essa barra por conta de um protocolo de java (pular linha)-->
+               Texto
+           <br />
+           <br />
+           <br />
+           <br />
+          
+           <hr /> <!-- Coloca uma linha-->
+               Texto
+          
+               <!--Tag semanticas-->
+          
+           <strong>Teste</strong> <!--Mesma coisa do Negrito com pequena difereça no CSS-->
+           <big>Teste</big> <!--Aumenta Letra(náo é muito usado)-->
+           <small>Teste</small> <!--Diminui a Letra-->
+
+
+           <!--tag de código-->
+
+
+               <pre>
+
+
+                   p {
+                       color: red;
+                     }
+
+
+               </pre>
+
+
+               <code>
+
+
+                   p {
+                       color: red;
+                     }
+
+
+               </code>
+
+       </body>
